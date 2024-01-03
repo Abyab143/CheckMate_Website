@@ -1,0 +1,54 @@
+
+.all_users img{
+  width:50%;
+  border-radius: 100%;
+}
+.all_user_con{
+  background-color:black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+}
+
+.comments{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comments input{
+  width: 600px;
+}
+
+.comment_user{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 10px;
+}
+.comment_user img{
+  width: 5%;
+  border-radius: 100%;
+}
+
+.comment_con{
+  background-color:black;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+.btn{
+  margin-top: 10px;
+}
+.margi{
+  margin-top: 10px;
+}
+}
+.bg{
+  background: linear-gradient(45deg,#0a0a0a,#3a4452);
+}
